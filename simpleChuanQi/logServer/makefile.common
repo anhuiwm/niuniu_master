@@ -1,0 +1,26 @@
+PRJ_ROOT=/home/simplechuanqi/simpleChuanQi/logServer
+SRC_ROOT=$(PRJ_ROOT)/srcLogserver
+MYSQL_INC = $(PRJ_ROOT)/depends/inc/mysql-5.1.30-include/
+
+CXX = g++
+CXXFLAGS += -g -Wno-unused-function -Wall -fno-strict-aliasing -fPIC -std=c++11 -DUSE_EPOLLWR_IOVEC=0 -DUSE_EPOLLWR_SENDBUF=0 -D__LOGSERVER__  $(INCLUDE)
+SRCS = $(patsubst %.o,%.cpp,$(OBJS))
+
+INCLUDE = -I$(MYSQL_INC) -I$(PRJ_ROOT) -I$(PRJ_ROOT)/base -I$(PRJ_ROOT)/rapidjson/include -I$(SRC_ROOT)
+
+.PHONY: all
+
+all: $(OBJS) .depend
+	@
+
+clean:
+	rm -rf $(OBJS) 
+
+clean_dep:
+	rm -f .depend
+
+.depend:
+	$(CXX) -MM $(CXXFLAGS) $(SRCS) > $@
+
+include .depend
+

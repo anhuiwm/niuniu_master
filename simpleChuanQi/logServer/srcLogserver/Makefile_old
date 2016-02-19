@@ -1,0 +1,33 @@
+TARGET = svrLog
+
+CXX = g++
+
+INCLUDE = 
+
+#-Wall 
+CXXFLAGS = -g -fPIC -std=c++11 -DUSE_EPOLLWR_IOVEC=0 -DUSE_EPOLLWR_SENDBUF=0 -D__LOGSERVER__ $(INCLUDE)
+LDFLAGS = -ldl -lpthread -lm -lz -lrt -lutil
+#SRCS = $(patsubst %.o,%.cpp,$(OBJS))
+
+.PHONY: all
+
+all: $(TARGET)
+
+clean:
+	rm -rf $(OBJS) 
+
+OBJS = logServer.o timer.o j2.o
+
+STATIC_LIB = 
+
+$(TARGET): $(OBJS)
+	$(CXX) -rdynamic $(OBJS) $(STATIC_LIB) $(LDFLAGS) -o $@
+
+strip:
+	strip $(DLLS) $(TARGET)
+
+logServer.o: logServer.cpp timer.h j2.h logCase.hpp  logDefine.hpp
+timer.o: timer.cpp timer.h j2.h
+j2.o: j2.cpp j2.h
+
+

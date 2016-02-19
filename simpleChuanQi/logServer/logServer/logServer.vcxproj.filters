@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\newLogserver\j2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\newLogserver\timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\newLogserver\logDefine.hpp">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\newLogserver\db.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\srcLogserver\base.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\srcLogserver\db.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\srcLogserver\head.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\srcLogserver\j2.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\srcLogserver\logCase.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\srcLogserver\logDefine.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\srcLogserver\mysqlCtrl.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\srcLogserver\timer.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\srcLogserver\typedef.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\srcLogserver\zconf.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\srcLogserver\zlib.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\srcLogserver\zlibapi.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\srcLogserver\log.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\newLogserver\logXML.rb">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\newLogserver\logGen.rb">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\newLogserver\svrLog.ini">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\newLogserver\logDB.sql">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\Makefile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\makefile.common">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\newLogserver\Makefile1">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\srcLogserver\logDB.sql">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\srcLogserver\logGen.rb">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\srcLogserver\logXML.rb">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\srcLogserver\Makefile">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\srcLogserver\svrLog.ini">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\srcLogserver\base.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\srcLogserver\db.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\srcLogserver\j2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\srcLogserver\logServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\srcLogserver\mysqlCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\srcLogserver\timer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\srcLogserver\log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

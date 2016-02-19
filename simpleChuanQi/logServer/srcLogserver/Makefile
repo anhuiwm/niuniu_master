@@ -1,0 +1,43 @@
+TARGET = svrLog
+
+CXX = g++
+
+PRJ_ROOT=/home/simplechuanqi/simpleChuanQi/logServer
+
+SRC_ROOT=$(PRJ_ROOT)/srcLogserver
+
+MYSQL_INC = $(PRJ_ROOT)/depends/inc/mysql-5.1.30-include/
+
+INCLUDE = -I$(MYSQL_INC) -I$(SRC_ROOT)
+
+#-Wall 
+CXXFLAGS = -g -fPIC -std=c++11 -DUSE_EPOLLWR_IOVEC=0 -DUSE_EPOLLWR_SENDBUF=0 -D__LOGSERVER__ $(INCLUDE)
+LDFLAGS = -ldl -lpthread -lm -lz -lrt -luuid  -lutil
+#SRCS = $(patsubst %.o,%.cpp,$(OBJS))
+
+.PHONY: all
+
+all: $(TARGET)
+
+clean:
+	rm -rf $(OBJS) 
+
+OBJS = logServer.o timer.o j2.o base.o mysqlCtrl.o db.o log.o
+
+STATIC_LIB = $(PRJ_ROOT)/depends/libs/linux/libmysqlclient_r.a
+
+$(TARGET): $(OBJS)
+	$(CXX) -rdynamic $(OBJS) $(CXXFLAGS) $(STATIC_LIB) $(LDFLAGS) -o $@
+
+strip:
+	strip $(DLLS) $(TARGET)
+log.o: log.cpp log.h
+base.o: base.cpp base.h log.h zlibapi.h
+mysqlCtrl.o: mysqlCtrl.cpp mysqlCtrl.h base.h log.h
+db.o: db.cpp db.h base.h log.h
+logServer.o: logServer.cpp timer.h j2.h logCase.hpp  logDefine.hpp
+timer.o: timer.cpp timer.h j2.h
+j2.o: j2.cpp j2.h
+
+
+
