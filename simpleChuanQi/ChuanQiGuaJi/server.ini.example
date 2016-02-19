@@ -1,0 +1,15 @@
+[server]
+listen = 0.0.0.0:9999
+
+[db]
+ip = 192.168.6.175
+user = uguaji;
+password = HuaMeiDa6SHSK
+database = simpleguaji 
+port = 3306
+
+[logserver]
+ip = 192.168.6.165
+port = 1234
+
+

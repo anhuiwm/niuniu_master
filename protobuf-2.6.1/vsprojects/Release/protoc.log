@@ -1,0 +1,93 @@
+﻿生成启动时间为 2016/2/19 17:59:12。
+     1>项目“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\protoc.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, libprotoc.vcxproj, lite-test.vcxproj, tests.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>InitializeBuildStatus:
+         正在创建“Release\protoc.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+     1>项目“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\protoc.vcxproj”(1)正在节点 1 上生成“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\libprotoc.vcxproj”(3:3) (GetResolvedLinkLibs 个目标)。
+     3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, lite-test.vcxproj, protoc.vcxproj, tests.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     3>已完成生成项目“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\libprotoc.vcxproj”(GetResolvedLinkLibs 个目标)的操作。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\protoc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Release\protoc.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\protoc.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         "W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\libprotobuf.lib"
+         "W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\libprotoc.lib"
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/OPT:ICF”规范)
+     1>main.obj : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“main.obj”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(importer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(importer.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(parser.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(parser.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(descriptor.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor.pb.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(descriptor.pb.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor_database.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(descriptor_database.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(dynamic_message.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(dynamic_message.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(extension_set.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(extension_set.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(extension_set_heavy.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(extension_set_heavy.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(generated_message_reflection.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(generated_message_reflection.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(generated_message_util.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(generated_message_util.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(coded_stream.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(coded_stream.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(printer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(printer.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(strtod.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(strtod.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(tokenizer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(tokenizer.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(zero_copy_stream.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream_impl.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(zero_copy_stream_impl.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(zero_copy_stream_impl_lite.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(message.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(message.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(message_lite.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(message_lite.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(reflection_ops.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(reflection_ops.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(repeated_field.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(repeated_field.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(atomicops_internals_x86_msvc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(atomicops_internals_x86_msvc.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(common.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(common.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(once.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(once.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(stringprintf.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(stringprintf.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(structurally_valid.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(structurally_valid.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(strutil.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(strutil.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(substitute.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(substitute.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(text_format.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(text_format.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(unknown_field_set.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(unknown_field_set.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(wire_format.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(wire_format.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(wire_format_lite.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(wire_format_lite.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(code_generator.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(code_generator.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(command_line_interface.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(command_line_interface.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(cpp_enum.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(cpp_enum.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(cpp_enum_field.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(cpp_enum_field.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(cpp_extension.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(cpp_extension.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(cpp_field.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(cpp_field.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(cpp_file.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(cpp_file.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(cpp_generator.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(cpp_generator.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(cpp_helpers.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(cpp_helpers.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(cpp_message.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(cpp_message.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(cpp_message_field.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(cpp_message_field.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(cpp_primitive_field.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(cpp_primitive_field.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(cpp_service.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(cpp_service.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(cpp_string_field.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(cpp_string_field.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_context.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_context.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_doc_comment.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_doc_comment.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_enum.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_enum.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_enum_field.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_enum_field.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_extension.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_extension.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_field.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_field.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_file.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_file.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_generator.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_generator.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_generator_factory.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_generator_factory.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_helpers.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_helpers.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_lazy_message_field.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_lazy_message_field.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_message.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_message.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_message_field.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_message_field.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_name_resolver.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_name_resolver.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_primitive_field.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_primitive_field.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_service.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_service.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_shared_code_generator.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_shared_code_generator.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(java_string_field.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(java_string_field.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(plugin.pb.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(plugin.pb.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(python_generator.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(python_generator.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(subprocess.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(subprocess.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotoc.lib(zip_writer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotoc.lib(zip_writer.obj)”或在“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         protoc.vcxproj -> W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\protoc.exe
+       FinalizeBuildStatus:
+         正在删除文件“Release\protoc.tlog\unsuccessfulbuild”。
+         正在对“Release\protoc.tlog\protoc.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\protoc.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.92

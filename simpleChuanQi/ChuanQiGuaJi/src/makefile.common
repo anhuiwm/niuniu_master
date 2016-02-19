@@ -1,0 +1,27 @@
+PRJ_ROOT=/home/wm/work/server/
+SRC_ROOT=$(PRJ_ROOT)/ChuanQiGuaJi/src
+LIBEVENT_DIR=$(PRJ_ROOT)/depends/inc/LIBEVENT-LINUX/libevent-2.0.21-stable/
+MYSQL_INC = $(PRJ_ROOT)/depends/inc/mysql-5.1.30-include/
+
+CXX = g++
+CXXFLAGS += -g -Wno-unused-function -Wall -fno-strict-aliasing -fPIC -std=c++11 $(INCLUDE)
+SRCS = $(patsubst %.o,%.cpp,$(OBJS))
+
+INCLUDE = -I$(MYSQL_INC) -I$(PRJ_ROOT) -I$(PRJ_ROOT)/base -I$(PRJ_ROOT)/rapidjson/include -I$(SRC_ROOT) -I$(LIBEVENT_DIR) -I$(LIBEVENT_DIR)/include 
+
+.PHONY: all
+
+all: $(OBJS) .depend
+	@
+
+clean:
+	rm -rf $(OBJS) 
+
+clean_dep:
+	rm -f .depend
+
+.depend:
+	$(CXX) -MM $(CXXFLAGS) $(SRCS) > $@
+
+include .depend
+

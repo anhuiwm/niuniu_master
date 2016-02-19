@@ -1,0 +1,76 @@
+﻿生成启动时间为 2016/2/19 17:55:21。
+     1>项目“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\libprotobuf.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotoc.vcxproj, lite-test.vcxproj, protoc.vcxproj, tests.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>InitializeBuildStatus:
+         正在对“Debug\libprotobuf.tlog\unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../src /I. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBPROTOBUF_EXPORTS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 ..\src\google\protobuf\compiler\importer.cc ..\src\google\protobuf\compiler\parser.cc ..\src\google\protobuf\descriptor.cc ..\src\google\protobuf\descriptor.pb.cc ..\src\google\protobuf\descriptor_database.cc ..\src\google\protobuf\dynamic_message.cc ..\src\google\protobuf\extension_set_heavy.cc ..\src\google\protobuf\generated_message_reflection.cc ..\src\google\protobuf\io\gzip_stream.cc ..\src\google\protobuf\io\printer.cc ..\src\google\protobuf\io\strtod.cc ..\src\google\protobuf\io\tokenizer.cc ..\src\google\protobuf\io\zero_copy_stream_impl.cc ..\src\google\protobuf\message.cc ..\src\google\protobuf\reflection_ops.cc ..\src\google\protobuf\service.cc ..\src\google\protobuf\stubs\structurally_valid.cc ..\src\google\protobuf\stubs\strutil.cc ..\src\google\protobuf\stubs\substitute.cc ..\src\google\protobuf\text_format.cc ..\src\google\protobuf\unknown_field_set.cc ..\src\google\protobuf\wire_format.cc
+         wire_format.cc
+         unknown_field_set.cc
+         text_format.cc
+         substitute.cc
+         strutil.cc
+         structurally_valid.cc
+         service.cc
+         reflection_ops.cc
+         message.cc
+         zero_copy_stream_impl.cc
+         tokenizer.cc
+         strtod.cc
+         printer.cc
+         gzip_stream.cc
+         generated_message_reflection.cc
+         extension_set_heavy.cc
+         dynamic_message.cc
+         descriptor_database.cc
+         descriptor.pb.cc
+         descriptor.cc
+         正在生成代码...
+         正在编译...
+         parser.cc
+         importer.cc
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"Debug\libprotobuf.lib" /NOLOGO Debug\importer.obj
+         Debug\parser.obj
+         Debug\descriptor.obj
+         Debug\descriptor.pb.obj
+         Debug\descriptor_database.obj
+         Debug\dynamic_message.obj
+         Debug\extension_set.obj
+         Debug\extension_set_heavy.obj
+         Debug\generated_message_reflection.obj
+         Debug\generated_message_util.obj
+         Debug\coded_stream.obj
+         Debug\gzip_stream.obj
+         Debug\printer.obj
+         Debug\strtod.obj
+         Debug\tokenizer.obj
+         Debug\zero_copy_stream.obj
+         Debug\zero_copy_stream_impl.obj
+         Debug\zero_copy_stream_impl_lite.obj
+         Debug\message.obj
+         Debug\message_lite.obj
+         Debug\reflection_ops.obj
+         Debug\repeated_field.obj
+         Debug\service.obj
+         Debug\atomicops_internals_x86_msvc.obj
+         Debug\common.obj
+         Debug\once.obj
+         Debug\stringprintf.obj
+         Debug\structurally_valid.obj
+         Debug\strutil.obj
+         Debug\substitute.obj
+         Debug\text_format.obj
+         Debug\unknown_field_set.obj
+         Debug\wire_format.obj
+         Debug\wire_format_lite.obj
+         libprotobuf.vcxproj -> W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Debug\libprotobuf.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\libprotobuf.tlog\unsuccessfulbuild”。
+         正在对“Debug\libprotobuf.tlog\libprotobuf.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\libprotobuf.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.32

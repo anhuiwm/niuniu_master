@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/2/19 17:59:08。
+     1>项目“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\lite-test.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, libprotoc.vcxproj, protoc.vcxproj, tests.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>InitializeBuildStatus:
+         正在对“Release\lite-test.tlog\unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\lite-test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Release\lite-test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\lite-test.lib" /MACHINE:X86 /SAFESEH Release\lite_unittest.obj
+         Release\test_util_lite.obj
+         Release\unittest_import_lite.pb.obj
+         Release\unittest_import_public_lite.pb.obj
+         Release\unittest_lite.pb.obj
+         "W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\libprotobuf-lite.lib"
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/OPT:ICF”规范)
+         lite-test.vcxproj -> W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\lite-test.exe
+       FinalizeBuildStatus:
+         正在删除文件“Release\lite-test.tlog\unsuccessfulbuild”。
+         正在对“Release\lite-test.tlog\lite-test.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\lite-test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.28

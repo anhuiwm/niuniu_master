@@ -1,0 +1,51 @@
+﻿生成启动时间为 2016/2/19 17:59:12。
+     1>项目“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\libprotobuf.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotoc.vcxproj, lite-test.vcxproj, protoc.vcxproj, tests.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>InitializeBuildStatus:
+         正在创建“Release\libprotobuf.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"Release\libprotobuf.lib" /NOLOGO Release\importer.obj
+         Release\parser.obj
+         Release\descriptor.obj
+         Release\descriptor.pb.obj
+         Release\descriptor_database.obj
+         Release\dynamic_message.obj
+         Release\extension_set.obj
+         Release\extension_set_heavy.obj
+         Release\generated_message_reflection.obj
+         Release\generated_message_util.obj
+         Release\coded_stream.obj
+         Release\gzip_stream.obj
+         Release\printer.obj
+         Release\strtod.obj
+         Release\tokenizer.obj
+         Release\zero_copy_stream.obj
+         Release\zero_copy_stream_impl.obj
+         Release\zero_copy_stream_impl_lite.obj
+         Release\message.obj
+         Release\message_lite.obj
+         Release\reflection_ops.obj
+         Release\repeated_field.obj
+         Release\service.obj
+         Release\atomicops_internals_x86_msvc.obj
+         Release\common.obj
+         Release\once.obj
+         Release\stringprintf.obj
+         Release\structurally_valid.obj
+         Release\strutil.obj
+         Release\substitute.obj
+         Release\text_format.obj
+         Release\unknown_field_set.obj
+         Release\wire_format.obj
+         Release\wire_format_lite.obj
+         libprotobuf.vcxproj -> W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Release\libprotobuf.lib
+       FinalizeBuildStatus:
+         正在删除文件“Release\libprotobuf.tlog\unsuccessfulbuild”。
+         正在对“Release\libprotobuf.tlog\libprotobuf.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\libprotobuf.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.19

@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\libevent-net\listener.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libevent-net\net_util.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\activity.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\arena.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\broadCast.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\config.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\db.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\factionCtrl.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\fightCtrl.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\friend.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\item.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\itemCtrl.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\jsonpacket.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\legendFight.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\mailCtrl.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\mainServer.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\mineCtrl.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\protocal.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\quickfight.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\rank.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\role.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\roleCtrl.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\roleskill.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\shop.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\sign.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\skill.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\task.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\base.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\log.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\logIntf.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\mysqlCtrl.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\common.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\mercenary.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\packMgr.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\TimerMgr.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\roleWorldBoss.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\WorldBoss.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\rolerune.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\j2.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\database.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\logs_db.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinystr.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxml.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxmlerror.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxmlparser.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\service.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\session.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\backend_session.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\input_stream.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\output_stream.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\main_db.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\libevent-net\net_util.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\activity.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\arena.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\broadCast.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\config.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\db.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\factionCtrl.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\fightCtrl.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\friend.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\item.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\itemCtrl.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\jsonpacket.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\legendFight.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\mailCtrl.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\mineCtrl.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\protocal.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\quickfight.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\rank.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\role.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\roleCtrl.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\roleskill.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\shop.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sign.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\skill.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\task.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapidjson\include\rapidjson\document.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapidjson\include\rapidjson\filestream.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapidjson\include\rapidjson\prettywriter.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapidjson\include\rapidjson\rapidjson.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapidjson\include\rapidjson\reader.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapidjson\include\rapidjson\stringbuffer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapidjson\include\rapidjson\writer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\base.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\head.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\log.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\logIntf.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\mysqlCtrl.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\typedef.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\zconf.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\zlib.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\zlibapi.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\common.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\mercenary.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\packMgr.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\TimerMgr.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\roleWorldBoss.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\WorldBoss.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\rolerune.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logdefine\logDefine.hpp">
+      <Filter>extend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logdefine\logCase.hpp">
+      <Filter>extend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\j2.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\database.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\logs_db.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tinyxml\tinystr.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tinyxml\tinyxml.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\service.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\session.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\backend_session.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\input_stream.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\output_stream.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\backend_protocal.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\main_db.h">
+      <Filter>database</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="game">
+      <UniqueIdentifier>{e5f477d9-c9cf-4b4d-99bc-def4194a28f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libevent">
+      <UniqueIdentifier>{3b217f7c-0747-473f-86a8-c4daa2d704de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{2b895bd9-541e-4aeb-ba4f-c0da9cbcf17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{e82d2036-0f20-418f-b280-d9527bf57b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra">
+      <UniqueIdentifier>{7137f27b-b475-4fca-a2ab-1a2ac233dddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database">
+      <UniqueIdentifier>{2a313706-2686-453b-8d77-2b94dc3662d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{f9299863-26b0-4b81-b00d-c359392fb711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{c4b70169-b336-447e-9b78-fa405fac349f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extend">
+      <UniqueIdentifier>{3e38adb8-d0a7-4cb4-ad60-0f70fb6dcbb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\compile.sh">
+      <Filter>extend</Filter>
+    </None>
+    <None Include="src\Makefile">
+      <Filter>extend</Filter>
+    </None>
+    <None Include="src\makefile.common">
+      <Filter>extend</Filter>
+    </None>
+    <None Include="src\onekey.sh">
+      <Filter>extend</Filter>
+    </None>
+    <None Include="src\send.sh">
+      <Filter>extend</Filter>
+    </None>
+    <None Include="src\logdefine\logDB.sql">
+      <Filter>extend</Filter>
+    </None>
+    <None Include="src\logdefine\logGen.rb">
+      <Filter>extend</Filter>
+    </None>
+    <None Include="default.html">
+      <Filter>extend</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="config.xml">
+      <Filter>extend</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,89 @@
+﻿生成启动时间为 2016/2/19 17:59:41。
+     1>项目“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\tests.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, libprotoc.vcxproj, lite-test.vcxproj, protoc.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>InitializeBuildStatus:
+         正在对“Release\tests.tlog\unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../src /I. /I../gtest/include /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VARIADIC_MAX=10 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 ..\src\google\protobuf\compiler\command_line_interface_unittest.cc ..\src\google\protobuf\compiler\cpp\cpp_bootstrap_unittest.cc ..\src\google\protobuf\compiler\cpp\cpp_plugin_unittest.cc ..\src\google\protobuf\compiler\cpp\cpp_unittest.cc ..\src\google\protobuf\compiler\importer_unittest.cc ..\src\google\protobuf\compiler\java\java_doc_comment_unittest.cc ..\src\google\protobuf\compiler\java\java_plugin_unittest.cc ..\src\google\protobuf\compiler\mock_code_generator.cc ..\src\google\protobuf\compiler\parser_unittest.cc ..\src\google\protobuf\compiler\python\python_plugin_unittest.cc ..\src\google\protobuf\descriptor_database_unittest.cc ..\src\google\protobuf\descriptor_unittest.cc ..\src\google\protobuf\dynamic_message_unittest.cc ..\src\google\protobuf\extension_set_unittest.cc ..\src\google\protobuf\generated_message_reflection_unittest.cc ..\src\google\protobuf\io\coded_stream_unittest.cc ..\src\google\protobuf\io\printer_unittest.cc ..\src\google\protobuf\io\tokenizer_unittest.cc ..\src\google\protobuf\io\zero_copy_stream_unittest.cc ..\src\google\protobuf\message_unittest.cc ..\src\google\protobuf\reflection_ops_unittest.cc ..\src\google\protobuf\repeated_field_reflection_unittest.cc ..\src\google\protobuf\repeated_field_unittest.cc ..\src\google\protobuf\stubs\common_unittest.cc ..\src\google\protobuf\stubs\once_unittest.cc ..\src\google\protobuf\stubs\stringprintf_unittest.cc ..\src\google\protobuf\stubs\structurally_valid_unittest.cc ..\src\google\protobuf\stubs\strutil_unittest.cc ..\src\google\protobuf\stubs\template_util_unittest.cc ..\src\google\protobuf\stubs\type_traits_unittest.cc ..\src\google\protobuf\testing\googletest.cc ..\src\google\protobuf\test_util.cc ..\src\google\protobuf\text_format_unittest.cc ..\src\google\protobuf\unknown_field_set_unittest.cc ..\src\google\protobuf\wire_format_unittest.cc google\protobuf\compiler\cpp\cpp_test_bad_identifiers.pb.cc
+         command_line_interface_unittest.cc
+     1>..\src\google\protobuf\compiler\command_line_interface_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         cpp_bootstrap_unittest.cc
+     1>..\src\google\protobuf\compiler\cpp\cpp_bootstrap_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         cpp_plugin_unittest.cc
+     1>..\src\google\protobuf\compiler\cpp\cpp_plugin_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         cpp_unittest.cc
+     1>..\src\google\protobuf\compiler\cpp\cpp_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         importer_unittest.cc
+     1>..\src\google\protobuf\compiler\importer_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         java_doc_comment_unittest.cc
+     1>..\src\google\protobuf\compiler\java\java_doc_comment_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         java_plugin_unittest.cc
+     1>..\src\google\protobuf\compiler\java\java_plugin_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         mock_code_generator.cc
+     1>..\src\google\protobuf\compiler\mock_code_generator.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         parser_unittest.cc
+     1>..\src\google\protobuf\compiler\parser_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         python_plugin_unittest.cc
+     1>..\src\google\protobuf\compiler\python\python_plugin_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         descriptor_database_unittest.cc
+     1>..\src\google\protobuf\descriptor_database_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         descriptor_unittest.cc
+     1>..\src\google\protobuf\descriptor_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         dynamic_message_unittest.cc
+     1>..\src\google\protobuf\dynamic_message_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         extension_set_unittest.cc
+     1>..\src\google\protobuf\extension_set_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         generated_message_reflection_unittest.cc
+     1>..\src\google\protobuf\generated_message_reflection_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         coded_stream_unittest.cc
+     1>..\src\google\protobuf\io\coded_stream_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         printer_unittest.cc
+     1>..\src\google\protobuf\io\printer_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         tokenizer_unittest.cc
+     1>..\src\google\protobuf\io\tokenizer_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         zero_copy_stream_unittest.cc
+     1>..\src\google\protobuf\io\zero_copy_stream_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         message_unittest.cc
+     1>..\src\google\protobuf\message_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         正在生成代码...
+         正在编译...
+         reflection_ops_unittest.cc
+     1>..\src\google\protobuf\reflection_ops_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         repeated_field_reflection_unittest.cc
+     1>..\src\google\protobuf\repeated_field_reflection_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         repeated_field_unittest.cc
+     1>..\src\google\protobuf\repeated_field_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         common_unittest.cc
+     1>..\src\google\protobuf\stubs\common_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         once_unittest.cc
+     1>..\src\google\protobuf\stubs\once_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         stringprintf_unittest.cc
+     1>..\src\google\protobuf\stubs\stringprintf_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         structurally_valid_unittest.cc
+     1>..\src\google\protobuf\stubs\structurally_valid_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         strutil_unittest.cc
+     1>..\src\google\protobuf\stubs\strutil_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         template_util_unittest.cc
+     1>..\src\google\protobuf\stubs\template_util_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         type_traits_unittest.cc
+     1>..\src\google\protobuf\stubs\type_traits_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         googletest.cc
+     1>..\src\google\protobuf\testing\googletest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         test_util.cc
+     1>..\src\google\protobuf\test_util.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         text_format_unittest.cc
+     1>..\src\google\protobuf\text_format_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         unknown_field_set_unittest.cc
+     1>..\src\google\protobuf\unknown_field_set_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         wire_format_unittest.cc
+     1>..\src\google\protobuf\wire_format_unittest.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         cpp_test_bad_identifiers.pb.cc
+     1>google\protobuf\compiler\cpp\cpp_test_bad_identifiers.pb.cc : fatal error C1041: 无法打开程序数据库“w:\git\project\niuniu\protobuf-2.6.1\vsprojects\release\vc120.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+         正在生成代码...
+     1>已完成生成项目“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\tests.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.48

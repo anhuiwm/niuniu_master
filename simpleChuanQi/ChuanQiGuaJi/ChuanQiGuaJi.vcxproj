@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{31496479-3AFA-4F26-A896-9F3C3BFE6653}</ProjectGuid>
+    <RootNamespace>ChuanQiGuaJi</RootNamespace>
+    <ProjectName>simpleChuanQiGuaJi</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)Output\</OutDir>
+    <TargetName>guaji</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\depends\inc\MySQL Server 4.1\include\;..\base;..\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\WIN32-Code;..\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable;..\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\include;src/;..\rapidjson\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_32BIT_TIME_T;_CONSOLE;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libevent.lib;libmysql.lib;ws2_32.lib;zdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\depends\libs\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\base\base.cpp" />
+    <ClCompile Include="..\base\log.cpp" />
+    <ClCompile Include="..\base\logIntf.cpp" />
+    <ClCompile Include="..\base\mysqlCtrl.cpp" />
+    <ClCompile Include="src\game\activity.cpp" />
+    <ClCompile Include="src\game\arena.cpp" />
+    <ClCompile Include="src\game\backend_session.cpp" />
+    <ClCompile Include="src\game\broadCast.cpp" />
+    <ClCompile Include="src\game\common.cpp" />
+    <ClCompile Include="src\game\config.cpp" />
+    <ClCompile Include="src\game\database.cpp" />
+    <ClCompile Include="src\game\db.cpp" />
+    <ClCompile Include="src\game\factionCtrl.cpp" />
+    <ClCompile Include="src\game\fightCtrl.cpp" />
+    <ClCompile Include="src\game\friend.cpp" />
+    <ClCompile Include="src\game\input_stream.cpp" />
+    <ClCompile Include="src\game\item.cpp" />
+    <ClCompile Include="src\game\itemCtrl.cpp" />
+    <ClCompile Include="src\game\j2.cpp" />
+    <ClCompile Include="src\game\jsonpacket.cpp" />
+    <ClCompile Include="src\game\legendFight.cpp" />
+    <ClCompile Include="src\game\logs_db.cpp" />
+    <ClCompile Include="src\game\mailCtrl.cpp" />
+    <ClCompile Include="src\game\mainServer.cpp" />
+    <ClCompile Include="src\game\main_db.cpp" />
+    <ClCompile Include="src\game\mercenary.cpp" />
+    <ClCompile Include="src\game\mineCtrl.cpp" />
+    <ClCompile Include="src\game\output_stream.cpp" />
+    <ClCompile Include="src\game\packMgr.cpp" />
+    <ClCompile Include="src\game\protocal.cpp" />
+    <ClCompile Include="src\game\quickfight.cpp" />
+    <ClCompile Include="src\game\rank.cpp" />
+    <ClCompile Include="src\game\role.cpp" />
+    <ClCompile Include="src\game\roleCtrl.cpp" />
+    <ClCompile Include="src\game\rolerune.cpp" />
+    <ClCompile Include="src\game\roleskill.cpp" />
+    <ClCompile Include="src\game\roleWorldBoss.cpp" />
+    <ClCompile Include="src\game\service.cpp" />
+    <ClCompile Include="src\game\session.cpp" />
+    <ClCompile Include="src\game\shop.cpp" />
+    <ClCompile Include="src\game\sign.cpp" />
+    <ClCompile Include="src\game\skill.cpp" />
+    <ClCompile Include="src\game\task.cpp" />
+    <ClCompile Include="src\game\TimerMgr.cpp" />
+    <ClCompile Include="src\game\WorldBoss.cpp" />
+    <ClCompile Include="src\libevent-net\listener.cpp" />
+    <ClCompile Include="src\libevent-net\net_util.cpp" />
+    <ClCompile Include="src\tinyxml\tinystr.cpp" />
+    <ClCompile Include="src\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="src\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="src\tinyxml\tinyxmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\base\base.h" />
+    <ClInclude Include="..\base\head.h" />
+    <ClInclude Include="..\base\log.h" />
+    <ClInclude Include="..\base\logIntf.h" />
+    <ClInclude Include="..\base\mysqlCtrl.h" />
+    <ClInclude Include="..\base\typedef.h" />
+    <ClInclude Include="..\base\zconf.h" />
+    <ClInclude Include="..\base\zlib.h" />
+    <ClInclude Include="..\base\zlibapi.h" />
+    <ClInclude Include="..\rapidjson\include\rapidjson\document.h" />
+    <ClInclude Include="..\rapidjson\include\rapidjson\filestream.h" />
+    <ClInclude Include="..\rapidjson\include\rapidjson\prettywriter.h" />
+    <ClInclude Include="..\rapidjson\include\rapidjson\rapidjson.h" />
+    <ClInclude Include="..\rapidjson\include\rapidjson\reader.h" />
+    <ClInclude Include="..\rapidjson\include\rapidjson\stringbuffer.h" />
+    <ClInclude Include="..\rapidjson\include\rapidjson\writer.h" />
+    <ClInclude Include="src\game\activity.h" />
+    <ClInclude Include="src\game\arena.h" />
+    <ClInclude Include="src\game\backend_protocal.h" />
+    <ClInclude Include="src\game\backend_session.h" />
+    <ClInclude Include="src\game\broadCast.h" />
+    <ClInclude Include="src\game\common.h" />
+    <ClInclude Include="src\game\config.h" />
+    <ClInclude Include="src\game\database.h" />
+    <ClInclude Include="src\game\db.h" />
+    <ClInclude Include="src\game\factionCtrl.h" />
+    <ClInclude Include="src\game\fightCtrl.h" />
+    <ClInclude Include="src\game\friend.h" />
+    <ClInclude Include="src\game\input_stream.h" />
+    <ClInclude Include="src\game\item.h" />
+    <ClInclude Include="src\game\itemCtrl.h" />
+    <ClInclude Include="src\game\j2.h" />
+    <ClInclude Include="src\game\jsonpacket.h" />
+    <ClInclude Include="src\game\legendFight.h" />
+    <ClInclude Include="src\game\logs_db.h" />
+    <ClInclude Include="src\game\mailCtrl.h" />
+    <ClInclude Include="src\game\main_db.h" />
+    <ClInclude Include="src\game\mercenary.h" />
+    <ClInclude Include="src\game\mineCtrl.h" />
+    <ClInclude Include="src\game\output_stream.h" />
+    <ClInclude Include="src\game\packMgr.h" />
+    <ClInclude Include="src\game\protocal.h" />
+    <ClInclude Include="src\game\quickfight.h" />
+    <ClInclude Include="src\game\rank.h" />
+    <ClInclude Include="src\game\role.h" />
+    <ClInclude Include="src\game\roleCtrl.h" />
+    <ClInclude Include="src\game\rolerune.h" />
+    <ClInclude Include="src\game\roleskill.h" />
+    <ClInclude Include="src\game\roleWorldBoss.h" />
+    <ClInclude Include="src\game\service.h" />
+    <ClInclude Include="src\game\session.h" />
+    <ClInclude Include="src\game\shop.h" />
+    <ClInclude Include="src\game\sign.h" />
+    <ClInclude Include="src\game\skill.h" />
+    <ClInclude Include="src\game\task.h" />
+    <ClInclude Include="src\game\TimerMgr.h" />
+    <ClInclude Include="src\game\WorldBoss.h" />
+    <ClInclude Include="src\libevent-net\net_util.h" />
+    <ClInclude Include="src\logdefine\logCase.hpp" />
+    <ClInclude Include="src\logdefine\logDefine.hpp" />
+    <ClInclude Include="src\tinyxml\tinystr.h" />
+    <ClInclude Include="src\tinyxml\tinyxml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.html" />
+    <None Include="src\compile.sh" />
+    <None Include="src\logdefine\logDB.sql" />
+    <None Include="src\logdefine\logGen.rb" />
+    <None Include="src\Makefile" />
+    <None Include="src\makefile.common" />
+    <None Include="src\onekey.sh" />
+    <None Include="src\send.sh" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="config.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

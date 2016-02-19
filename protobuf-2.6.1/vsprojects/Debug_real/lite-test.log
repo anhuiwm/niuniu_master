@@ -1,0 +1,34 @@
+﻿生成启动时间为 2016/2/19 17:55:53。
+     1>项目“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\lite-test.vcxproj”在节点 4 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, libprotoc.vcxproj, protoc.vcxproj, tests.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>InitializeBuildStatus:
+         正在对“Debug\lite-test.tlog\unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         Generating unittest_import_lite.pb.{h,cc}...
+         Generating unittest_import_public_lite.pb.{h,cc}...
+         Generating unittest_lite.pb.{h,cc}...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../src /I. /I../gtest/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VARIADIC_MAX=10 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 ..\src\google\protobuf\lite_unittest.cc ..\src\google\protobuf\test_util_lite.cc google\protobuf\unittest_import_lite.pb.cc google\protobuf\unittest_import_public_lite.pb.cc google\protobuf\unittest_lite.pb.cc
+         unittest_lite.pb.cc
+         unittest_import_public_lite.pb.cc
+         unittest_import_lite.pb.cc
+         test_util_lite.cc
+         lite_unittest.cc
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\lite-test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\lite-test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\lite-test.lib" /MACHINE:X86 /SAFESEH Debug\lite_unittest.obj
+         Debug\test_util_lite.obj
+         Debug\unittest_import_lite.pb.obj
+         Debug\unittest_import_public_lite.pb.obj
+         Debug\unittest_lite.pb.obj
+         "W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Debug\libprotobuf-lite.lib"
+     1>lite_unittest.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         lite-test.vcxproj -> W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\Debug\lite-test.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\lite-test.tlog\unsuccessfulbuild”。
+         正在对“Debug\lite-test.tlog\lite-test.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“W:\Git\project\niuniu\protobuf-2.6.1\vsprojects\lite-test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.39
