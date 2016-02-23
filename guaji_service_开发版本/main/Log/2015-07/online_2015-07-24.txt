@@ -1,0 +1,31 @@
+[11:08:37]: send treasure time:1437707317
+[11:08:37]: offerArenaReward 1437707317
+[18:49:54]: all
+[19:33:26]: all
+[19:38:28]: all
+[19:39:33]: usegm:79  $level
+[19:40:06]: all
+[19:41:03]: usegm:80  $level
+[19:43:37]: all
+[19:43:58]: usegm:81  $level
+[19:45:38]: all
+[19:46:56]: usegm:82  $level
+[19:49:23]: all
+[19:50:10]: usegm:83  $level
+[19:52:09]: all
+[19:53:18]: usegm:84  $level
+[11:14:27]: all
+[11:20:48]: usegm:88  $level
+[11:27:49]: all
+[11:29:05]: usegm:88  $level
+[11:35:18]: all
+[11:35:55]: usegm:88  $level
+[11:38:17]: all
+[11:38:44]: all
+[11:39:58]: all
+[11:40:24]: usegm:88  $level
+[17:31:09]: all
+[17:33:05]: usegm:88  $charge
+[17:33:05]: ::::this->dwRoleID=88, nChargeNum=200000, buyRealNum=200000
+[17:33:05]: vip=9  get=9
+[17:34:27]: usegm:88  $item

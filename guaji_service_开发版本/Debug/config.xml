@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <id>1</id>
+  <ip>0.0.0.0</ip>
+  <port>9999</port>
+  <backend_ip>0.0.0.0</backend_ip>
+  <backend_port>1000</backend_port>
+  <backend_limited_ip>127.0.0.1;192.168.6.165;192.168.6.105</backend_limited_ip>
+  <http_address>0.0.0.0</http_address>
+  <http_port>800</http_port>
+  <http_limited_ip>127.0.0.1;192.168.6.165;192.168.6.105</http_limited_ip>
+  <db_ip>192.168.6.175</db_ip>
+  <db_schema>166simpleguaji</db_schema>
+  <db_user>uguaji</db_user>
+  <db_pwd>HuaMeiDa6SHSK</db_pwd>
+  <db_port>3306</db_port>
+  <logdb_ip>192.168.6.175</logdb_ip>
+  <logdb_schema>166simpleguaji</logdb_schema>
+  <logdb_user>uguaji</logdb_user>
+  <logdb_pwd>HuaMeiDa6SHSK</logdb_pwd>
+  <logdb_port>3306</logdb_port>
+  <check_account>1</check_account>
+  <gm_no_need_name>1</gm_no_need_name>
+</config>

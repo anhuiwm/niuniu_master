@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="root" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="root" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="equip">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr1" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr2" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr3" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr4" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr5" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr6" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr7" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr8" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr9" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr10" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr11" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr12" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr13" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr14" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr15" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr16" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr17" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr18" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr19" type="xs:string" minOccurs="0" />
+              <xs:element name="basic_attr20" type="xs:string" minOccurs="0" />
+              <xs:element name="skill_attr1" type="xs:string" minOccurs="0" />
+              <xs:element name="skill_attr2" type="xs:string" minOccurs="0" />
+              <xs:element name="skill_attr3" type="xs:string" minOccurs="0" />
+              <xs:element name="skill_attr4" type="xs:string" minOccurs="0" />
+              <xs:element name="skill_attr5" type="xs:string" minOccurs="0" />
+              <xs:element name="skill_attr6" type="xs:string" minOccurs="0" />
+              <xs:element name="skill_attr7" type="xs:string" minOccurs="0" />
+              <xs:element name="star_attr1" type="xs:string" minOccurs="0" />
+              <xs:element name="star_attr2" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,4 @@
+[11:07:06]: {service.cpp, 568}: load config.xml done.
+[11:07:48]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[11:07:48]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[11:08:04]: {protocal.cpp, 146}: role login : 9cdf5d56acc934488684cb529660cb21(uuid), 0(datalen)

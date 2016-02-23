@@ -1,0 +1,93 @@
+﻿<html>
+<head><title>挂机后台</title>
+    <style>
+        div {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 微软雅黑;
+            margin: 0px;
+        }
+    </style>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+</head>
+<body>
+    <script>
+        function on_refresh_online_count() {
+            $.getJSON("/online_count", function (json) {
+                online_count.textContent = json.count;
+            }).fail(function (obj, err) {
+                alert(err);
+            });
+        }
+        function on_refresh_cache_count() {
+            $.getJSON("/cache_count", function (json) {
+                cache_count.textContent = json.count;
+            }).fail(function (obj, err) {
+                alert(err);
+            });
+        }
+        function on_get_online_players() {
+            online_players.textContent = "加载……";
+            $.getJSON("/online_players?size=20&page=1", function (json) {
+                online_players.textContent = "";
+                for (var it in json.players) {
+                    var div = document.createElement("div");
+                    div.textContent = json.players[it].name + "(id:" + json.players[it].id + "," + json.players[it].level + "级) " + json.players[it].ip + " [" + new Date(json.players[it].logintime * 1000).toLocaleString() + "]";
+                    online_players.appendChild(div);
+                }
+            }).fail(function (obj, err) {
+                alert(err);
+            });
+        }
+        function on_save() {
+            $.getJSON("/save",function (data) {
+                alert('保存成功');
+            }).fail(function (o, err) {
+                alert('保存失败');
+            });
+        }
+        function on_stop() {
+            if (!confirm('确认要停止服务器吗？')) return;
+            $.getJSON("/stop", function (data) {
+                alert('停止成功');
+            }).fail(function (o, err) {
+                alert('停止失败');
+            });
+        }
+        function on_send_broadcast() {
+            if (!confirm('确认要发送公告吗？')) return;
+            $.getJSON("/broadcast?" + broadcast.value, function (data) {
+                if (data.result == 0)
+                    alert('发送公告成功' + broadcast.value);
+                else
+                    alert('发送公告失败');
+            }).fail(function (o, err) {
+                alert('发送公告失败');
+            });
+        }
+    </script>
+    <div style="font-size: 30pt; background-color: #0088CC; color: white; padding: 15px">后台管理<div style="float: right">
+        <button onclick="on_save()">保存</button>
+        <button onclick="on_stop()">停止</button></div>
+    </div>
+    <div style="border-radius: 5px; margin: 10px; border: 1px solid gray;">
+        <div style="padding: 5px">当前在线：<span id="online_count">请手动刷新</span>
+            <button onclick="on_refresh_online_count()">刷新</button><br />
+        </div>
+        <div style="padding: 5px">
+            缓存用户数：<span id="cache_count">请手动刷新</span>
+            <button onclick="on_refresh_cache_count()">刷新</button><br />
+        </div>
+        <div style="padding: 5px">
+            在线玩家：<div id="online_players">请手动刷新</div>
+            <button onclick="on_get_online_players()">刷新</button><br />
+        </div>
+        <div style="padding: 5px">
+            公告：<input type="text" id="broadcast" style="width:500px"/>
+            <button onclick="on_send_broadcast()">张贴</button><br />
+        </div>
+    </div>
+</body>
+</html>

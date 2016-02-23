@@ -1,0 +1,2 @@
+[12:25:35]: {db.cpp, 279}: dbinit ok 
+[12:25:48]: {service.cpp, 490}: load_config() ok 

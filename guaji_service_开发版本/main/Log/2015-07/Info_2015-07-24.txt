@@ -1,0 +1,38 @@
+[11:08:39]: {worldboss.cpp, 617}: world boss enter signup stage.
+[18:49:44]: {service.cpp, 568}: load config.xml done.
+[19:33:16]: {service.cpp, 568}: load config.xml done.
+[19:34:59]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[19:38:18]: {service.cpp, 568}: load config.xml done.
+[19:39:56]: {service.cpp, 568}: load config.xml done.
+[19:40:11]: {protocal.cpp, 147}: role login : d22caa46c1978c47b5dd5fcf0e010ed9(uuid), 0(datalen)
+[19:40:12]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[19:40:23]: {protocal.cpp, 147}: role login : d22caa46c1978c47b5dd5fcf0e010ed9(uuid), 0(datalen)
+[19:40:26]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[19:40:37]: {session.cpp, 62}: Client BEV_EVENT_EOF.
+[19:43:27]: {service.cpp, 568}: load config.xml done.
+[19:43:45]: {protocal.cpp, 147}: role login : 80d51793ea249e42bb1141bfda10f156(uuid), 0(datalen)
+[19:45:28]: {service.cpp, 568}: load config.xml done.
+[19:45:42]: {protocal.cpp, 147}: role login : 4b69f36d0ab89640a5fdb12e6eef9cb3(uuid), 0(datalen)
+[19:45:44]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[19:46:06]: {protocal.cpp, 147}: role login : d22caa46c1978c47b5dd5fcf0e010ed9(uuid), 0(datalen)
+[19:46:09]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[19:46:25]: {protocal.cpp, 147}: role login : d22caa46c1978c47b5dd5fcf0e010ed9(uuid), 0(datalen)
+[19:46:27]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[19:49:14]: {service.cpp, 568}: load config.xml done.
+[19:51:59]: {service.cpp, 568}: load config.xml done.
+[19:52:27]: {protocal.cpp, 147}: role login : 5ebfc5e2dbdd6d46a36b0e8a876635b7(uuid), 0(datalen)
+[19:52:29]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[19:54:14]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[11:14:17]: {service.cpp, 568}: load config.xml done.
+[11:19:10]: {protocal.cpp, 147}: role login : 2d03674409016e4197080cf5c4ebb78a(uuid), 0(datalen)
+[11:26:34]: {service.cpp, 568}: load config.xml done.
+[11:27:54]: {protocal.cpp, 147}: role login : 2d03674409016e4197080cf5c4ebb78a(uuid), 0(datalen)
+[11:35:05]: {service.cpp, 568}: load config.xml done.
+[11:35:24]: {protocal.cpp, 147}: role login : 2d03674409016e4197080cf5c4ebb78a(uuid), 0(datalen)
+[11:38:07]: {service.cpp, 568}: load config.xml done.
+[11:38:35]: {service.cpp, 568}: load config.xml done.
+[11:39:48]: {service.cpp, 568}: load config.xml done.
+[11:40:11]: {protocal.cpp, 147}: role login : 2d03674409016e4197080cf5c4ebb78a(uuid), 0(datalen)
+[17:30:59]: {service.cpp, 568}: load config.xml done.
+[17:32:31]: {protocal.cpp, 147}: role login : 2d03674409016e4197080cf5c4ebb78a(uuid), 0(datalen)
+[17:46:46]: {session.cpp, 58}: Client BEV_EVENT_ERROR.

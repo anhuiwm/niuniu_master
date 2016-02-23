@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+Release|Win32|W:\Git\project\niuniu\simpleChuanQi\logServer\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\proj.win32\|

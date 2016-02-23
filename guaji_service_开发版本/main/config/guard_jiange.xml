@@ -1,0 +1,9 @@
+<?xml version="1.0", encoding="utf-8"?>
+<config>
+	<daily_time>1</daily_time>
+	<create_cost>20</create_cost>
+	<autofight_delay>10</autofight_delay>
+	<begin_time>19:00:00</begin_time>
+	<end_time>19:00:00</end_time>
+	<level_limit>15</level_limit>
+</config>

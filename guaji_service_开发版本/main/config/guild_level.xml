@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <!--请按等级顺序填写-->
+  <item level="1" max_member="10" exp="1000" reward_gold="20"/>
+  <item level="2" max_member="12" exp="1200" reward_gold="22"/>
+  <item level="3" max_member="14" exp="1400" reward_gold="24"/>
+  <item level="4" max_member="16" exp="1600" reward_gold="26"/>
+  <item level="5" max_member="18" exp="1800" reward_gold="28"/>
+  <item level="6" max_member="20" exp="2000" reward_gold="30"/>
+  <item level="7" max_member="22" exp="2200" reward_gold="32"/>
+  <item level="8" max_member="24" exp="2400" reward_gold="34"/>
+  <item level="9" max_member="26" exp="2600" reward_gold="36"/>
+  <item level="10" max_member="28" exp="2800" reward_gold="38"/>
+  <item level="11" max_member="30" exp="3000" reward_gold="40"/>
+  <item level="12" max_member="32" exp="3200" reward_gold="42"/>
+  <item level="13" max_member="34" exp="3400" reward_gold="44"/>
+  <item level="14" max_member="36" exp="3600" reward_gold="46"/>
+  <item level="15" max_member="38" exp="3800" reward_gold="48"/>
+  <item level="16" max_member="40" exp="4000" reward_gold="50"/>
+  <item level="17" max_member="42" exp="4200" reward_gold="52"/>
+  <item level="18" max_member="44" exp="4400" reward_gold="54"/>
+  <item level="19" max_member="46" exp="4600" reward_gold="56"/>
+  <item level="20" max_member="48" exp="4800" reward_gold="58"/>
+  <item level="21" max_member="50" exp="5000" reward_gold="60"/>
+  <item level="22" max_member="52" exp="5200" reward_gold="62"/>
+  <item level="23" max_member="54" exp="5400" reward_gold="64"/>
+  <item level="24" max_member="56" exp="5600" reward_gold="66"/>
+  <item level="25" max_member="58" exp="5800" reward_gold="68"/>
+  <item level="26" max_member="60" exp="6000" reward_gold="70"/>
+  <item level="27" max_member="62" exp="6200" reward_gold="72"/>
+  <item level="28" max_member="64" exp="6400" reward_gold="74"/>
+  <item level="29" max_member="66" exp="6600" reward_gold="76"/>
+  <item level="30" max_member="70" exp="0" reward_gold="78"/>
+
+</config>

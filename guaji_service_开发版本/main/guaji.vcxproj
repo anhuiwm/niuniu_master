@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{31496479-3AFA-4F26-A896-9F3C3BFE6653}</ProjectGuid>
+    <RootNamespace>guaji</RootNamespace>
+    <ProjectName>main</ProjectName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <TargetName>guaji</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../thirdparty/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_32BIT_TIME_T;_CONSOLE;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libevent.lib;libmysql.lib;ws2_32.lib;zdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\depends\libs\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="activity.cpp" />
+    <ClCompile Include="arena.cpp" />
+    <ClCompile Include="backend_session.cpp" />
+    <ClCompile Include="base.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="broadCast.cpp" />
+    <ClCompile Include="common.cpp" />
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="database.cpp" />
+    <ClCompile Include="db.cpp" />
+    <ClCompile Include="factionCtrl.cpp" />
+    <ClCompile Include="fightCtrl.cpp" />
+    <ClCompile Include="friend.cpp" />
+    <ClCompile Include="input_stream.cpp" />
+    <ClCompile Include="item.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="itemCtrl.cpp" />
+    <ClCompile Include="j2.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="jsonpacket.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="legendFight.cpp" />
+    <ClCompile Include="log.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="logs_db.cpp" />
+    <ClCompile Include="mailCtrl.cpp" />
+    <ClCompile Include="mainServer.cpp" />
+    <ClCompile Include="main_db.cpp" />
+    <ClCompile Include="mercenary.cpp" />
+    <ClCompile Include="mysqlCtrl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="output_stream.cpp" />
+    <ClCompile Include="packMgr.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="protocal.cpp" />
+    <ClCompile Include="quickfight.cpp" />
+    <ClCompile Include="rank.cpp" />
+    <ClCompile Include="role.cpp" />
+    <ClCompile Include="roleCtrl.cpp" />
+    <ClCompile Include="rolerune.cpp" />
+    <ClCompile Include="roleskill.cpp" />
+    <ClCompile Include="roleWorldBoss.cpp" />
+    <ClCompile Include="service.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="session.cpp" />
+    <ClCompile Include="shop.cpp" />
+    <ClCompile Include="sign.cpp" />
+    <ClCompile Include="skill.cpp" />
+    <ClCompile Include="task.cpp" />
+    <ClCompile Include="team.cpp" />
+    <ClCompile Include="TimerMgr.cpp" />
+    <ClCompile Include="tinystr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tinyxml_extend.cpp" />
+    <ClCompile Include="WorldBoss.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\rapidjson\include\rapidjson\document.h" />
+    <ClInclude Include="..\rapidjson\include\rapidjson\filestream.h" />
+    <ClInclude Include="..\rapidjson\include\rapidjson\prettywriter.h" />
+    <ClInclude Include="..\rapidjson\include\rapidjson\rapidjson.h" />
+    <ClInclude Include="..\rapidjson\include\rapidjson\reader.h" />
+    <ClInclude Include="..\rapidjson\include\rapidjson\stringbuffer.h" />
+    <ClInclude Include="..\rapidjson\include\rapidjson\writer.h" />
+    <ClInclude Include="activity.h" />
+    <ClInclude Include="arena.h" />
+    <ClInclude Include="backend_protocal.h" />
+    <ClInclude Include="backend_session.h" />
+    <ClInclude Include="base.h" />
+    <ClInclude Include="broadCast.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="database.h" />
+    <ClInclude Include="db.h" />
+    <ClInclude Include="factionCtrl.h" />
+    <ClInclude Include="fightCtrl.h" />
+    <ClInclude Include="friend.h" />
+    <ClInclude Include="head.h" />
+    <ClInclude Include="input_stream.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="itemCtrl.h" />
+    <ClInclude Include="j2.h" />
+    <ClInclude Include="jsonpacket.h" />
+    <ClInclude Include="legendFight.h" />
+    <ClInclude Include="log.h" />
+    <ClInclude Include="logs_db.h" />
+    <ClInclude Include="mailCtrl.h" />
+    <ClInclude Include="main_db.h" />
+    <ClInclude Include="mercenary.h" />
+    <ClInclude Include="mysqlCtrl.h" />
+    <ClInclude Include="output_stream.h" />
+    <ClInclude Include="packMgr.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="protocal.h" />
+    <ClInclude Include="quickfight.h" />
+    <ClInclude Include="rank.h" />
+    <ClInclude Include="role.h" />
+    <ClInclude Include="roleCtrl.h" />
+    <ClInclude Include="rolerune.h" />
+    <ClInclude Include="roleskill.h" />
+    <ClInclude Include="roleWorldBoss.h" />
+    <ClInclude Include="service.h" />
+    <ClInclude Include="session.h" />
+    <ClInclude Include="shop.h" />
+    <ClInclude Include="sign.h" />
+    <ClInclude Include="skill.h" />
+    <ClInclude Include="task.h" />
+    <ClInclude Include="team.h" />
+    <ClInclude Include="TimerMgr.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="tinyxml_extend.h" />
+    <ClInclude Include="typedef.h" />
+    <ClInclude Include="WorldBoss.h" />
+    <ClInclude Include="zconf.h" />
+    <ClInclude Include="zlib.h" />
+    <ClInclude Include="zlibapi.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="config.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="compile.sh" />
+    <None Include="default.html" />
+    <None Include="onekey.sh" />
+    <None Include="send.sh" />
+    <None Include="struct.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libevent.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

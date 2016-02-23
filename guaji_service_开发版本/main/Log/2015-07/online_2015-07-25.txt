@@ -1,0 +1,27 @@
+[10:29:44]: all
+[14:21:00]: all
+[14:23:23]: all
+[15:41:37]: all
+[15:42:39]: usegm:87  $task
+[15:43:15]: usegm:87  $task
+[15:43:32]: usegm:87  $level
+[15:46:06]: all
+[15:46:49]: usegm:80  $task
+[15:49:08]: usegm:80  $openmap
+[15:52:43]: all
+[15:53:13]: usegm:80  $clean
+[15:54:59]: all
+[15:55:34]: usegm:80  $clean
+[18:04:06]: all
+[18:05:03]: usegm:87  $mapopen
+[18:06:08]: usegm:87  $openmap
+[18:07:03]: usegm:87  $charge
+[18:07:03]: ::::this->dwRoleID=87, nChargeNum=-1, buyRealNum=-1
+[18:07:43]: usegm:87  $charge
+[18:07:43]: ::::this->dwRoleID=87, nChargeNum=3233333, buyRealNum=3233333
+[18:07:43]: vip=10  get=10
+[19:26:26]: all
+[19:28:54]: usegm:88  $level
+[19:40:31]: all
+[19:48:18]: all
+[19:53:49]: all

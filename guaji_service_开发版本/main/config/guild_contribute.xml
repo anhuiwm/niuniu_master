@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <item gold="10" coin="100000" guild_exp="5" person_contribute="5"/>
+  <item gold="20" coin="200000" guild_exp="5" person_contribute="5"/>
+  <item gold="30" coin="300000" guild_exp="5" person_contribute="5"/>
+  <item gold="40" coin="400000" guild_exp="5" person_contribute="5"/>
+  <item gold="50" coin="500000" guild_exp="5" person_contribute="5"/>
+  <item gold="60" coin="600000" guild_exp="5" person_contribute="5"/>
+  <item gold="70" coin="700000" guild_exp="5" person_contribute="5"/>
+  <item gold="80" coin="800000" guild_exp="5" person_contribute="5"/>
+  <item gold="90" coin="900000" guild_exp="5" person_contribute="5"/>
+  <item gold="100" coin="1000000" guild_exp="5" person_contribute="5"/>
+  <item gold="110" coin="1100000" guild_exp="5" person_contribute="5"/>
+  <item gold="120" coin="1200000" guild_exp="5" person_contribute="5"/>
+  <item gold="130" coin="1300000" guild_exp="5" person_contribute="5"/>
+  <item gold="140" coin="1400000" guild_exp="5" person_contribute="5"/>
+  <item gold="150" coin="1500000" guild_exp="5" person_contribute="5"/>
+  <item gold="160" coin="1600000" guild_exp="5" person_contribute="5"/>
+  <item gold="170" coin="1700000" guild_exp="5" person_contribute="5"/>
+  <item gold="180" coin="1800000" guild_exp="5" person_contribute="5"/>
+  <item gold="190" coin="1900000" guild_exp="5" person_contribute="5"/>
+  <item gold="200" coin="2000000" guild_exp="5" person_contribute="5"/>
+  <item gold="210" coin="2100000" guild_exp="5" person_contribute="5"/>
+  <item gold="220" coin="2200000" guild_exp="5" person_contribute="5"/>
+  <item gold="230" coin="2300000" guild_exp="5" person_contribute="5"/>
+  <item gold="240" coin="2400000" guild_exp="5" person_contribute="5"/>
+  <item gold="250" coin="2500000" guild_exp="5" person_contribute="5"/>
+  <item gold="260" coin="2600000" guild_exp="5" person_contribute="5"/>
+  <item gold="270" coin="2700000" guild_exp="5" person_contribute="5"/>
+  <item gold="280" coin="2800000" guild_exp="5" person_contribute="5"/>
+  <item gold="290" coin="2900000" guild_exp="5" person_contribute="5"/>
+  <item gold="300" coin="3000000" guild_exp="5" person_contribute="5"/>
+</config>

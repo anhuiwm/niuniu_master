@@ -1,0 +1,32 @@
+[10:29:33]: {service.cpp, 568}: load config.xml done.
+[14:20:51]: {service.cpp, 568}: load config.xml done.
+[14:23:13]: {service.cpp, 568}: load config.xml done.
+[14:23:27]: {protocal.cpp, 147}: role login : 456144292610ff45848b7e94944979c8(uuid), 0(datalen)
+[15:41:27]: {service.cpp, 568}: load config.xml done.
+[15:42:09]: {protocal.cpp, 147}: role login : 456144292610ff45848b7e94944979c8(uuid), 0(datalen)
+[15:43:58]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[15:44:17]: {protocal.cpp, 147}: role login : 50f9846b5cdaf44795746faba22ddf68(uuid), 0(datalen)
+[15:44:26]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[15:45:57]: {service.cpp, 568}: load config.xml done.
+[15:46:25]: {protocal.cpp, 147}: role login : 50f9846b5cdaf44795746faba22ddf68(uuid), 0(datalen)
+[15:50:16]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[15:50:21]: {protocal.cpp, 147}: role login : 50f9846b5cdaf44795746faba22ddf68(uuid), 0(datalen)
+[15:52:34]: {service.cpp, 568}: load config.xml done.
+[15:52:49]: {protocal.cpp, 147}: role login : 50f9846b5cdaf44795746faba22ddf68(uuid), 0(datalen)
+[15:54:49]: {service.cpp, 568}: load config.xml done.
+[15:55:09]: {protocal.cpp, 147}: role login : 50f9846b5cdaf44795746faba22ddf68(uuid), 0(datalen)
+[18:03:56]: {service.cpp, 568}: load config.xml done.
+[18:04:30]: {protocal.cpp, 147}: role login : 456144292610ff45848b7e94944979c8(uuid), 0(datalen)
+[18:05:07]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[18:05:11]: {protocal.cpp, 147}: role login : 456144292610ff45848b7e94944979c8(uuid), 0(datalen)
+[18:06:13]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[18:06:17]: {protocal.cpp, 147}: role login : 456144292610ff45848b7e94944979c8(uuid), 0(datalen)
+[19:26:16]: {service.cpp, 568}: load config.xml done.
+[19:28:12]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[19:37:42]: {session.cpp, 58}: Client BEV_EVENT_ERROR.
+[19:40:22]: {service.cpp, 568}: load config.xml done.
+[19:40:41]: {protocal.cpp, 147}: role login : 2d03674409016e4197080cf5c4ebb78a(uuid), 0(datalen)
+[19:48:08]: {service.cpp, 568}: load config.xml done.
+[19:48:23]: {protocal.cpp, 147}: role login : 2d03674409016e4197080cf5c4ebb78a(uuid), 0(datalen)
+[19:53:39]: {service.cpp, 568}: load config.xml done.
+[19:53:53]: {protocal.cpp, 147}: role login : 2d03674409016e4197080cf5c4ebb78a(uuid), 0(datalen)

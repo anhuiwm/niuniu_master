@@ -1,0 +1,147 @@
+﻿生成启动时间为 2016/2/23 15:01:03。
+     1>项目“W:\Git\project\niuniu\guaji_service_开发版本\main\guaji.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\main.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../thirdparty/ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_32BIT_TIME_T /D _CONSOLE /D DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Debug\guaji.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt pch.cpp
+     1>cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../thirdparty/ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_32BIT_TIME_T /D _CONSOLE /D DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\guaji.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt activity.cpp arena.cpp backend_session.cpp broadCast.cpp common.cpp config.cpp database.cpp db.cpp factionCtrl.cpp fightCtrl.cpp friend.cpp input_stream.cpp itemCtrl.cpp jsonpacket.cpp legendFight.cpp logs_db.cpp mailCtrl.cpp mainServer.cpp main_db.cpp mercenary.cpp mysqlCtrl.cpp output_stream.cpp packMgr.cpp protocal.cpp quickfight.cpp rank.cpp role.cpp roleCtrl.cpp rolerune.cpp roleskill.cpp roleWorldBoss.cpp service.cpp session.cpp shop.cpp sign.cpp skill.cpp task.cpp team.cpp TimerMgr.cpp tinyxml_extend.cpp WorldBoss.cpp
+     1>cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+         WorldBoss.cpp
+         tinyxml_extend.cpp
+         TimerMgr.cpp
+         team.cpp
+         task.cpp
+         skill.cpp
+         sign.cpp
+         shop.cpp
+         session.cpp
+         service.cpp
+         roleWorldBoss.cpp
+         roleskill.cpp
+         rolerune.cpp
+         roleCtrl.cpp
+         role.cpp
+         rank.cpp
+         quickfight.cpp
+         protocal.cpp
+         packMgr.cpp
+         output_stream.cpp
+         正在生成代码...
+         正在编译...
+         mysqlCtrl.cpp
+         mercenary.cpp
+         main_db.cpp
+         mainServer.cpp
+         mailCtrl.cpp
+         logs_db.cpp
+         legendFight.cpp
+         jsonpacket.cpp
+         itemCtrl.cpp
+         input_stream.cpp
+         friend.cpp
+         fightCtrl.cpp
+         factionCtrl.cpp
+         db.cpp
+         database.cpp
+         config.cpp
+         common.cpp
+         broadCast.cpp
+         backend_session.cpp
+         arena.cpp
+         正在生成代码...
+         正在编译...
+         activity.cpp
+     1>w:\git\project\niuniu\guaji_service_开发版本\main\activity.cpp(1758): warning C4244: “=”: 从“time_t”转换到“byte”，可能丢失数据
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../thirdparty/ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_32BIT_TIME_T /D _CONSOLE /D DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt base.cpp item.cpp j2.cpp log.cpp tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp
+     1>cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         log.cpp
+         j2.cpp
+         item.cpp
+         base.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"W:\Git\project\niuniu\guaji_service_开发版本\Debug\guaji.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\depends\libs\win32 libevent.lib libmysql.lib ws2_32.lib zdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"W:\Git\project\niuniu\guaji_service_开发版本\Debug\guaji.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"W:\Git\project\niuniu\guaji_service_开发版本\Debug\guaji.lib" /MACHINE:X86 Debug\activity.obj
+         Debug\arena.obj
+         Debug\backend_session.obj
+         Debug\base.obj
+         Debug\broadCast.obj
+         Debug\common.obj
+         Debug\config.obj
+         Debug\database.obj
+         Debug\db.obj
+         Debug\factionCtrl.obj
+         Debug\fightCtrl.obj
+         Debug\friend.obj
+         Debug\input_stream.obj
+         Debug\item.obj
+         Debug\itemCtrl.obj
+         Debug\j2.obj
+         Debug\jsonpacket.obj
+         Debug\legendFight.obj
+         Debug\log.obj
+         Debug\logs_db.obj
+         Debug\mailCtrl.obj
+         Debug\mainServer.obj
+         Debug\main_db.obj
+         Debug\mercenary.obj
+         Debug\mysqlCtrl.obj
+         Debug\output_stream.obj
+         Debug\packMgr.obj
+         Debug\pch.obj
+         Debug\protocal.obj
+         Debug\quickfight.obj
+         Debug\rank.obj
+         Debug\role.obj
+         Debug\roleCtrl.obj
+         Debug\rolerune.obj
+         Debug\roleskill.obj
+         Debug\roleWorldBoss.obj
+         Debug\service.obj
+         Debug\session.obj
+         Debug\shop.obj
+         Debug\sign.obj
+         Debug\skill.obj
+         Debug\task.obj
+         Debug\team.obj
+         Debug\TimerMgr.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\tinyxml_extend.obj
+         Debug\WorldBoss.obj
+         libevent.lib
+     1>libevent.lib(buffer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(buffer.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(bufferevent.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(bufferevent.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(bufferevent_async.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(bufferevent_async.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(bufferevent_ratelim.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(bufferevent_ratelim.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(bufferevent_sock.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(bufferevent_sock.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(buffer_iocp.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(buffer_iocp.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(event.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(event.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(event_iocp.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(event_iocp.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(evmap.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(evmap.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(evthread.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(evthread.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(evutil.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(evutil.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(evutil_rand.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(evutil_rand.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(http.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(http.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(listener.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(listener.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(log.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(log.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(signal.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(signal.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(strlcpy.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(strlcpy.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libevent.lib(win32select.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libevent.lib(win32select.obj)”或在“W:\Git\project\niuniu\guaji_service_开发版本\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         guaji.vcxproj -> W:\Git\project\niuniu\guaji_service_开发版本\Debug\guaji.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\main.tlog\unsuccessfulbuild”。
+         正在对“Debug\main.tlog\main.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“W:\Git\project\niuniu\guaji_service_开发版本\main\guaji.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:38.56

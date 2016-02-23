@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="backend_session.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="db.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="input_stream.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="logs_db.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="main_db.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="output_stream.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="service.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="session.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="base.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="mysqlCtrl.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="activity.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="arena.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="broadCast.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="factionCtrl.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="fightCtrl.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="friend.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="itemCtrl.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="legendFight.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="mailCtrl.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="mercenary.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="packMgr.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="quickfight.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="rank.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="role.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="roleCtrl.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="rolerune.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="roleskill.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="roleWorldBoss.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="sign.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="skill.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="task.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerMgr.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldBoss.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonpacket.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="j2.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="protocal.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="mainServer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml_extend.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="team.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\rapidjson\include\rapidjson\document.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapidjson\include\rapidjson\filestream.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapidjson\include\rapidjson\prettywriter.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapidjson\include\rapidjson\rapidjson.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapidjson\include\rapidjson\reader.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapidjson\include\rapidjson\stringbuffer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapidjson\include\rapidjson\writer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="backend_protocal.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="backend_session.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="db.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="input_stream.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="logs_db.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="main_db.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="output_stream.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="service.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="session.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="head.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="mysqlCtrl.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="typedef.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="zconf.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="zlibapi.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="activity.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="arena.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="broadCast.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="factionCtrl.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="fightCtrl.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="friend.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="itemCtrl.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="legendFight.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="mailCtrl.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="mercenary.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="packMgr.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfight.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="rank.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="role.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="roleCtrl.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="rolerune.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="roleskill.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="roleWorldBoss.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="sign.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="skill.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="task.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerMgr.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldBoss.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonpacket.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="j2.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="protocal.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml_extend.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="team.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="json">
+      <UniqueIdentifier>{2b895bd9-541e-4aeb-ba4f-c0da9cbcf17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{e82d2036-0f20-418f-b280-d9527bf57b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{f9299863-26b0-4b81-b00d-c359392fb711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{c4b70169-b336-447e-9b78-fa405fac349f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic">
+      <UniqueIdentifier>{e5f477d9-c9cf-4b4d-99bc-def4194a28f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="linux">
+      <UniqueIdentifier>{25dcf67b-d462-47c0-846a-fb99227c53ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extend">
+      <UniqueIdentifier>{3e38adb8-d0a7-4cb4-ad60-0f70fb6dcbb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="config.xml">
+      <Filter>extend</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="compile.sh">
+      <Filter>linux</Filter>
+    </None>
+    <None Include="onekey.sh">
+      <Filter>linux</Filter>
+    </None>
+    <None Include="send.sh">
+      <Filter>linux</Filter>
+    </None>
+    <None Include="default.html">
+      <Filter>extend</Filter>
+    </None>
+    <None Include="struct.sql">
+      <Filter>extend</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt">
+      <Filter>linux</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libevent.lib" />
+  </ItemGroup>
+</Project>

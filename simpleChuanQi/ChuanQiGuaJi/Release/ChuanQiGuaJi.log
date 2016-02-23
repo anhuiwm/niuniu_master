@@ -1,0 +1,134 @@
+﻿生成启动时间为 2016/2/20 16:27:17。
+     1>项目“W:\Git\project\niuniu\simpleChuanQi\ChuanQiGuaJi\ChuanQiGuaJi.vcxproj”在节点 2 上(Build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“Release\simpleCh.31496479.tlog\”。
+       InitializeBuildStatus:
+         正在创建“Release\simpleCh.31496479.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\base\base.cpp ..\base\log.cpp ..\base\logIntf.cpp ..\base\mysqlCtrl.cpp src\game\activity.cpp src\game\arena.cpp src\game\backend_session.cpp src\game\broadCast.cpp src\game\common.cpp src\game\config.cpp src\game\database.cpp src\game\db.cpp src\game\factionCtrl.cpp src\game\fightCtrl.cpp src\game\friend.cpp src\game\input_stream.cpp src\game\item.cpp src\game\itemCtrl.cpp src\game\j2.cpp src\game\jsonpacket.cpp src\game\legendFight.cpp src\game\logs_db.cpp src\game\mailCtrl.cpp src\game\mainServer.cpp src\game\main_db.cpp src\game\mercenary.cpp src\game\mineCtrl.cpp src\game\output_stream.cpp src\game\packMgr.cpp src\game\protocal.cpp src\game\quickfight.cpp src\game\rank.cpp src\game\role.cpp src\game\roleCtrl.cpp src\game\rolerune.cpp src\game\roleskill.cpp src\game\roleWorldBoss.cpp src\game\service.cpp src\game\session.cpp src\game\shop.cpp src\game\sign.cpp src\game\skill.cpp src\game\task.cpp src\game\TimerMgr.cpp src\game\WorldBoss.cpp "src\libevent-net\listener.cpp" "src\libevent-net\net_util.cpp" src\tinyxml\tinystr.cpp src\tinyxml\tinyxml.cpp src\tinyxml\tinyxmlerror.cpp src\tinyxml\tinyxmlparser.cpp
+         base.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\base.h(437): error C2338: ====time_t size error===
+     1>..\base\base.cpp(728): error C2664: “errno_t _localtime32_s(tm *,const __time32_t *)”: 无法将参数 2 从“time_t *”转换为“const __time32_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>..\base\base.cpp(730): error C2664: “errno_t _localtime32_s(tm *,const __time32_t *)”: 无法将参数 2 从“time_t *”转换为“const __time32_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>..\base\base.cpp(737): error C2664: “errno_t _localtime32_s(tm *,const __time32_t *)”: 无法将参数 2 从“time_t *”转换为“const __time32_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>..\base\base.cpp(739): error C2664: “errno_t _localtime32_s(tm *,const __time32_t *)”: 无法将参数 2 从“time_t *”转换为“const __time32_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         log.cpp
+     1>..\base\log.cpp(61): error C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(337) : 参见“read”的声明
+     1>..\base\log.cpp(170): error C2664: “errno_t _localtime32_s(tm *,const __time32_t *)”: 无法将参数 2 从“time_t *”转换为“const __time32_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>..\base\log.cpp(191): error C2664: “errno_t _localtime32_s(tm *,const __time32_t *)”: 无法将参数 2 从“time_t *”转换为“const __time32_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>..\base\log.cpp(216): error C2664: “errno_t _localtime32_s(tm *,const __time32_t *)”: 无法将参数 2 从“time_t *”转换为“const __time32_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>..\base\log.cpp(253): error C3861: “mkdir”:  找不到标识符
+     1>..\base\log.cpp(257): error C3861: “mkdir”:  找不到标识符
+     1>..\base\log.cpp(281): error C3861: “mkdir”:  找不到标识符
+     1>..\base\log.cpp(288): warning C4244: “=”: 从“time_t”转换到“DWORD”，可能丢失数据
+     1>..\base\log.cpp(290): error C2065: “O_LARGEFILE”: 未声明的标识符
+     1>..\base\log.cpp(356): error C3861: “mkdir”:  找不到标识符
+     1>..\base\log.cpp(357): error C3861: “mkdir”:  找不到标识符
+     1>..\base\log.cpp(415): error C2065: “O_LARGEFILE”: 未声明的标识符
+         logIntf.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\base.h(437): error C2338: ====time_t size error===
+         mysqlCtrl.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\base.h(437): error C2338: ====time_t size error===
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlCtrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         activity.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\config.h(5): fatal error C1083: 无法打开包括文件: “base.h”: No such file or directory
+         arena.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         backend_session.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\config.h(5): fatal error C1083: 无法打开包括文件: “base.h”: No such file or directory
+         broadCast.cpp
+     1>src\game\broadCast.cpp(1): fatal error C1083: 无法打开包括文件: “log.h”: No such file or directory
+         common.cpp
+     1>src\game\common.cpp(1): fatal error C1083: 无法打开包括文件: “log.h”: No such file or directory
+         config.cpp
+     1>src\game\config.cpp(1): fatal error C1083: 无法打开包括文件: “base.h”: No such file or directory
+         database.cpp
+     1>src\game\database.cpp(1): fatal error C1083: 无法打开包括文件: “base.h”: No such file or directory
+         db.cpp
+     1>src\game\db.cpp(1): fatal error C1083: 无法打开包括文件: “log.h”: No such file or directory
+         factionCtrl.cpp
+     1>src\game\factionCtrl.cpp(1): fatal error C1083: 无法打开包括文件: “log.h”: No such file or directory
+         fightCtrl.cpp
+     1>src\game\fightCtrl.cpp(1): fatal error C1083: 无法打开包括文件: “log.h”: No such file or directory
+         friend.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         input_stream.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\config.h(5): fatal error C1083: 无法打开包括文件: “base.h”: No such file or directory
+         item.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         itemCtrl.cpp
+     1>src\game\itemCtrl.cpp(1): fatal error C1083: 无法打开包括文件: “log.h”: No such file or directory
+         j2.cpp
+         jsonpacket.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\jsonpacket.h(6): fatal error C1083: 无法打开包括文件: “rapidjson/document.h”: No such file or directory
+         正在编译...
+         legendFight.cpp
+         logs_db.cpp
+     1>src\game\logs_db.cpp(1): fatal error C1083: 无法打开包括文件: “base.h”: No such file or directory
+         mailCtrl.cpp
+     1>src\game\mailCtrl.cpp(1): fatal error C1083: 无法打开包括文件: “log.h”: No such file or directory
+         mainServer.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\config.h(5): fatal error C1083: 无法打开包括文件: “base.h”: No such file or directory
+         main_db.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\config.h(5): fatal error C1083: 无法打开包括文件: “base.h”: No such file or directory
+         mercenary.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\config.h(5): fatal error C1083: 无法打开包括文件: “base.h”: No such file or directory
+         mineCtrl.cpp
+         output_stream.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\config.h(5): fatal error C1083: 无法打开包括文件: “base.h”: No such file or directory
+         packMgr.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         protocal.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         quickfight.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         rank.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         role.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         roleCtrl.cpp
+     1>src\game\roleCtrl.cpp(1): fatal error C1083: 无法打开包括文件: “log.h”: No such file or directory
+         rolerune.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         roleskill.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         roleWorldBoss.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         service.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         session.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\config.h(5): fatal error C1083: 无法打开包括文件: “base.h”: No such file or directory
+         shop.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         正在编译...
+         sign.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         skill.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         task.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\protocal.h(5): fatal error C1083: 无法打开包括文件: “libevent-net/net_util.h”: No such file or directory
+         TimerMgr.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\TimerMgr.h(8): fatal error C1083: 无法打开包括文件: “base.h”: No such file or directory
+         WorldBoss.cpp
+     1>src\game\WorldBoss.cpp(1): fatal error C1083: 无法打开包括文件: “log.h”: No such file or directory
+         listener.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\libevent-net\net_util.h(10): fatal error C1083: 无法打开包括文件: “base.h”: No such file or directory
+         net_util.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\libevent-net\net_util.h(10): fatal error C1083: 无法打开包括文件: “base.h”: No such file or directory
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+     1>已完成生成项目“W:\Git\project\niuniu\simpleChuanQi\ChuanQiGuaJi\ChuanQiGuaJi.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.11

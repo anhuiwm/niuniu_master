@@ -1,9 +1,68 @@
-﻿生成启动时间为 2015/6/4 18:20:42。
-     1>项目“E:\server\simpleChuanQi\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\proj.win32\libevent.vcxproj”在节点 2 上(Build 个目标)。
-     1>Lib:
-         libevent.vcxproj -> E:\server\simpleChuanQi\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\proj.win32\Debug\libevent.lib
-     1>已完成生成项目“E:\server\simpleChuanQi\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\proj.win32\libevent.vcxproj”(Build 个目标)的操作。
+﻿生成启动时间为 2016/2/20 15:55:25。
+     1>项目“W:\Git\project\niuniu\simpleChuanQi\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\proj.win32\libevent.vcxproj”在节点 3 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\libevent.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"W:\Git\project\niuniu\simpleChuanQi\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\proj.win32\/../compat" /I"W:\Git\project\niuniu\simpleChuanQi\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\proj.win32\/../WIN32-Code" /I"W:\Git\project\niuniu\simpleChuanQi\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\proj.win32\/../include" /I"W:\Git\project\niuniu\simpleChuanQi\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\proj.win32\\" /I"W:\Git\project\niuniu\simpleChuanQi\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\proj.win32\/../" /Zi /nologo /W3 /WX- /sdl /Od /Oy- /D HAVE_CONFIG_H /D WIN32 /D DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:prompt ..\buffer.c ..\bufferevent.c ..\bufferevent_async.c ..\bufferevent_filter.c ..\bufferevent_pair.c ..\bufferevent_ratelim.c ..\bufferevent_sock.c ..\buffer_iocp.c ..\evdns.c ..\event.c ..\event_iocp.c ..\event_tagging.c ..\evmap.c ..\evrpc.c ..\evthread.c ..\evthread_win32.c ..\evutil.c ..\evutil_rand.c ..\http.c ..\listener.c ..\log.c ..\signal.c ..\strlcpy.c ..\win32select.c
+         win32select.c
+         strlcpy.c
+         signal.c
+         log.c
+         listener.c
+         http.c
+         evutil_rand.c
+         evutil.c
+     1>..\evutil.c(431): warning C4028: 形参 2 与声明不同
+         evthread_win32.c
+         evthread.c
+         evrpc.c
+         evmap.c
+         event_tagging.c
+         event_iocp.c
+         event.c
+         evdns.c
+         buffer_iocp.c
+         bufferevent_sock.c
+         bufferevent_ratelim.c
+         bufferevent_pair.c
+         正在生成代码...
+         正在编译...
+         bufferevent_filter.c
+         bufferevent_async.c
+         bufferevent.c
+         buffer.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"W:\Git\project\niuniu\simpleChuanQi\ChuanQiGuaJi\Debug\libevent.lib" /NOLOGO Debug\buffer.obj
+         Debug\bufferevent.obj
+         Debug\bufferevent_async.obj
+         Debug\bufferevent_filter.obj
+         Debug\bufferevent_pair.obj
+         Debug\bufferevent_ratelim.obj
+         Debug\bufferevent_sock.obj
+         Debug\buffer_iocp.obj
+         Debug\evdns.obj
+         Debug\event.obj
+         Debug\event_iocp.obj
+         Debug\event_tagging.obj
+         Debug\evmap.obj
+         Debug\evrpc.obj
+         Debug\evthread.obj
+         Debug\evthread_win32.obj
+         Debug\evutil.obj
+         Debug\evutil_rand.obj
+         Debug\http.obj
+         Debug\listener.obj
+         Debug\log.obj
+         Debug\signal.obj
+         Debug\strlcpy.obj
+         Debug\win32select.obj
+         libevent.vcxproj -> W:\Git\project\niuniu\simpleChuanQi\ChuanQiGuaJi\Debug\libevent.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\libevent.tlog\unsuccessfulbuild”。
+         正在对“Debug\libevent.tlog\libevent.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“W:\Git\project\niuniu\simpleChuanQi\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\proj.win32\libevent.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.04
+已用时间 00:00:06.02

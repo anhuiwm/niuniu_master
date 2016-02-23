@@ -1,0 +1,101 @@
+﻿生成启动时间为 2016/2/20 15:55:25。
+     1>项目“W:\Git\project\niuniu\simpleChuanQi\ChuanQiGuaJi\ChuanQiGuaJi.vcxproj”在节点 2 上(Build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“Debug\simpleCh.31496479.tlog\”。
+       InitializeBuildStatus:
+         正在创建“Debug\simpleCh.31496479.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\depends\inc\MySQL Server 4.1\include\\" /I..\base /I"..\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\WIN32-Code" /I"..\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable" /I"..\depends\inc\LIBEVENT-WIN\libevent-2.0.21-stable\include" /Isrc/ /I..\rapidjson\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_32BIT_TIME_T /D _CONSOLE /D DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\base\base.cpp ..\base\log.cpp ..\base\logIntf.cpp ..\base\mysqlCtrl.cpp src\game\activity.cpp src\game\arena.cpp src\game\backend_session.cpp src\game\broadCast.cpp src\game\common.cpp src\game\config.cpp src\game\database.cpp src\game\db.cpp src\game\factionCtrl.cpp src\game\fightCtrl.cpp src\game\friend.cpp src\game\input_stream.cpp src\game\item.cpp src\game\itemCtrl.cpp src\game\j2.cpp src\game\jsonpacket.cpp src\game\legendFight.cpp src\game\logs_db.cpp src\game\mailCtrl.cpp src\game\mainServer.cpp src\game\main_db.cpp src\game\mercenary.cpp src\game\mineCtrl.cpp src\game\output_stream.cpp src\game\packMgr.cpp src\game\protocal.cpp src\game\quickfight.cpp src\game\rank.cpp src\game\role.cpp src\game\roleCtrl.cpp src\game\rolerune.cpp src\game\roleskill.cpp src\game\roleWorldBoss.cpp src\game\service.cpp src\game\session.cpp src\game\shop.cpp src\game\sign.cpp src\game\skill.cpp src\game\task.cpp src\game\TimerMgr.cpp src\game\WorldBoss.cpp "src\libevent-net\listener.cpp" "src\libevent-net\net_util.cpp" src\tinyxml\tinystr.cpp src\tinyxml\tinyxml.cpp src\tinyxml\tinyxmlerror.cpp src\tinyxml\tinyxmlparser.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         net_util.cpp
+         listener.cpp
+         WorldBoss.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         TimerMgr.cpp
+         task.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\database.h(2): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         skill.cpp
+         sign.cpp
+         shop.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\database.h(2): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         session.cpp
+         service.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         roleWorldBoss.cpp
+         roleskill.cpp
+         rolerune.cpp
+         roleCtrl.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         role.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         rank.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         quickfight.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\database.h(2): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         protocal.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         packMgr.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\database.h(2): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         output_stream.cpp
+         mineCtrl.cpp
+         mercenary.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\database.h(2): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         main_db.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         mainServer.cpp
+         mailCtrl.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         logs_db.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\database.h(2): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         legendFight.cpp
+         jsonpacket.cpp
+         j2.cpp
+         itemCtrl.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         item.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\item.cpp(178): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\item.cpp(206): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\item.cpp(497): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\utility(157): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+                 w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\item.cpp(106): 参见对正在编译的函数 模板 实例化“std::pair<float,float>::pair<__w64 int,__w64 int,void>(std::pair<__w64 int,__w64 int> &&)”的引用
+                 w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\item.cpp(106): 参见对正在编译的函数 模板 实例化“std::pair<float,float>::pair<__w64 int,__w64 int,void>(std::pair<__w64 int,__w64 int> &&)”的引用
+         input_stream.cpp
+         friend.cpp
+         fightCtrl.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         factionCtrl.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         db.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         database.cpp
+     1>w:\git\project\niuniu\simplechuanqi\chuanqiguaji\src\game\database.h(2): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         config.cpp
+         common.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         broadCast.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         backend_session.cpp
+         arena.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         activity.cpp
+         mysqlCtrl.cpp
+     1>w:\git\project\niuniu\simplechuanqi\base\mysqlctrl.h(6): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         logIntf.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\chrono(749): warning C4244: “=”: 从“__int64”转换到“time_t”，可能丢失数据
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\condition_variable(73): 参见对正在编译的函数 模板 实例化“xtime std::_To_xtime<__int64,std::ratio<0x01,0x01>>(const std::chrono::duration<__int64,std::ratio<0x01,0x01>> &)”的引用
+                 w:\git\project\niuniu\simplechuanqi\base\logintf.cpp(264): 参见对正在编译的函数 模板 实例化“std::_Cv_status std::condition_variable::wait_for<__int64,std::ratio<0x01,0x01>>(std::unique_lock<std::mutex> &,const std::chrono::duration<__int64,std::ratio<0x01,0x01>> &)”的引用
+         log.cpp
+         base.cpp
+         正在生成代码...
+     1>已完成生成项目“W:\Git\project\niuniu\simpleChuanQi\ChuanQiGuaJi\ChuanQiGuaJi.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:42.44
